@@ -19,5 +19,5 @@ jobs:
             --no-cache \
             --platform=linux/amd64 \
             --output "type=image,push=true" \
-            --file ./.docker/dockerfile/app.Dockerfile . \
+            --file ./.dockerfile . \
             --tag mambari/openvoice:latest

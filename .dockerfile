@@ -1,5 +1,5 @@
 FROM python:3.9-alpine
   
 COPY . /home/
-RUN cd /home/OpenVoice
+RUN cd /home/openvoice
 RUN pip install -e .
